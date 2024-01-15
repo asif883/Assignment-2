@@ -1,0 +1,49 @@
+@media screen and (max-width: 600px) {
+    body{
+        margin: 0 40px;
+    }
+    nav {
+        flex-direction: column;
+    }
+    .banner{
+        width: 335px;
+        height: 483px;
+    }
+    .description{
+        padding: 5px;
+        margin: 5px 0;
+    }
+    .banner h1{
+        padding: 10px;
+        margin: 0 10px;
+    }
+    .input-section{
+        margin: 0 17px;
+        padding: 5px;
+    }
+    .input-section input{
+        margin: 5px;
+    }
+    .btn{
+        padding: 10px 65px;
+    }
+    .tour, .destination-img-row1, .destination-img-row2, .destination-img-row3{
+        flex-direction: column;
+    }
+    .tour-img img{
+        width: 335px;
+        height: 342px;
+    }
+    
+    .maldives, .indonesia, .srilanka, .north-america,
+    .kashmir, .bangladesh, .bandarban {
+        width: 335px;
+        height: 176px;
+    }
+    .maldives h2, .indonesia h2, .srilanka h2, .north-america h2,
+    .kashmir h2, .bangladesh h2, .bandarban h2{
+        padding-top: 75px;
+        font-size: 20px;
+    }
+
+ }
