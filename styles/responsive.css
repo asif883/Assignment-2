@@ -1,6 +1,6 @@
 @media screen and (max-width: 600px) {
     header, main{
-        margin: 0 40px;
+        margin: 0 auto;
         width: 335px;
     }
     nav {
@@ -26,7 +26,7 @@
         margin: 5px;
     }
     .btn{
-        padding: 10px 60px;
+        padding: 10px 50px;
     }
     .tour, .destination-img-row1, .destination-img-row2, .destination-img-row3, .hotel-map, .newsletter{
         flex-direction: column;
@@ -99,6 +99,13 @@
     }
     .travel-com h6{
         font-size: 15px;
+    }
+    footer{
+        width: 100%;
+        padding: 50px 25px 15px 25px;
+    }
+    .copyright{
+        padding-top: 4px;
     }
    
 

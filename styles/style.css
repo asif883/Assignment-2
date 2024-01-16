@@ -3,7 +3,7 @@ body{
     margin: 0 ;
 }
 header, main{
-    margin: 0 120px;
+    margin: 0 auto;
     width: 1170px;
 }
 /* header start */
@@ -414,10 +414,14 @@ footer{
     text-align: center;
 
     margin:50px 0 0 0 ;
+    width: 100%px;
+    height: 250px;
+    padding: 100px 250px 100px 250px;
+
 }
 .footer-logo{
     display: flex;
-    
+
     align-items: center;
     justify-content: center;
     
@@ -439,4 +443,10 @@ footer{
 }
 .social-link img{
     padding-left: 20px;
+}
+.copyright{
+    color: #131318;
+    font-family: Inter;
+    font-size: 16px;
+    padding-top: 50px;
 }
