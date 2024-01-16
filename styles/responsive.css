@@ -1,5 +1,5 @@
 @media screen and (max-width: 600px) {
-    body{
+    header, main{
         margin: 0 40px;
     }
     nav {
@@ -25,9 +25,9 @@
         margin: 5px;
     }
     .btn{
-        padding: 10px 65px;
+        padding: 10px 60px;
     }
-    .tour, .destination-img-row1, .destination-img-row2, .destination-img-row3{
+    .tour, .destination-img-row1, .destination-img-row2, .destination-img-row3, .hotel-map, .newsletter{
         flex-direction: column;
     }
     .tour-img img{
@@ -44,6 +44,63 @@
     .kashmir h2, .bangladesh h2, .bandarban h2{
         padding-top: 75px;
         font-size: 20px;
+    }
+    .price, .hotel, .map{
+        width: 335px;
+        height: 260px;
+        padding: 10px;
+    }
+    .satorini, .satorini-2{
+        width: 335px;
+        height: 500px;
+    }
+    .satorini-box, .satorini-box-2{
+        width: 303px;
+        height: 297px;
+    }
+    .satorini-box-2, .satorini-box{
+        padding: 3px;
+        left: 5px;
+        top: 185px;
+    }
+    .satorini-box-2 h4, .satorini-box-2 h5, .satorini-box h4, .satorini-box h5 {
+        margin: 4px 0;
+    }
+    .btn1{
+        margin-left: 55px;
+    }
+    .simple-place{
+        flex-direction: column;
+    }
+    .place-video img{
+        width: 355px;
+        height: 200px;
+
+    }
+    .news{
+        width: 335px;
+        height: 353px;
+        padding: 10px;
+    }
+    .news-discount{
+        width: 355px;
+        height: 300px;
+    }
+    .travel-com{
+        width: 214.023px;
+        height: 79.268px;
+        top: 160px;
+        left: 140px;
+
+    }
+    .travel-com h2{
+        font-size: 20px;
+    }
+    .travel-com h6{
+        font-size: 15px;
+    }
+    .footer-logo{
+        margin-left: 70px;
     }
 
  }
