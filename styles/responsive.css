@@ -1,6 +1,7 @@
 @media screen and (max-width: 600px) {
     header, main{
         margin: 0 40px;
+        width: 335px;
     }
     nav {
         flex-direction: column;
@@ -99,8 +100,6 @@
     .travel-com h6{
         font-size: 15px;
     }
-    .footer-logo{
-        margin-left: 70px;
-    }
+   
 
  }

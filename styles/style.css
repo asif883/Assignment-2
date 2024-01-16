@@ -4,6 +4,7 @@ body{
 }
 header, main{
     margin: 0 120px;
+    width: 1170px;
 }
 /* header start */
 
@@ -391,11 +392,11 @@ span{
     background-color: #FF5400;
     color: #FFF;
     border-radius: 16px;
-    width: 246px;
+    width: 324px;
     height: 120px;
     transform: rotate(-19.628deg);
-    left:338px;
-    top:212px;
+    left:342px;
+    top:200px;
 }
 .travel-com h6{
     text-align: center;
@@ -411,13 +412,14 @@ span{
 footer{
     background: rgba(19, 19, 24, 0.05);
     text-align: center;
-    
+
     margin:50px 0 0 0 ;
 }
 .footer-logo{
     display: flex;
-    margin-left: 530px;
+    
     align-items: center;
+    justify-content: center;
     
 }
 .footer-logo h2{
